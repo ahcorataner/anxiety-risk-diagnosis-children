@@ -1,4 +1,3 @@
-Perfeito! Vou te passar o **README.md pronto para GitHub**, com **Markdown correto**, incluindo negritos, cabeçalhos, links clicáveis, emojis e sem as barras invertidas (`\`) que estavam atrapalhando. Você pode copiar e colar **direto no GitHub**:
 
 ````markdown
 # 🧠 SISTEMA DE APOIO AO DIAGNÓSTICO DO RISCO DE TRANSTORNO DE ANSIEDADE EM CRIANÇAS
@@ -83,3 +82,4 @@ Carpenter et al., 2016. Base de dados disponível em Harvard Dataverse: [https:/
 [renata.rocha@discente.ufma.br](mailto:renata.rocha@discente.ufma.br)
 
 ```
+
