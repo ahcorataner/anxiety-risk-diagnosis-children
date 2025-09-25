@@ -25,7 +25,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.3, stratify=y, random_state=42)
 
 # ===============================================================
-# PARTE A – Ajuste de hiperparâmetros (somente para responder revisor)
+# PARTE A – Ajuste de hiperparâmetros com GridSearchCV
 # ===============================================================
 
 # Definir grids
@@ -77,10 +77,10 @@ print("Melhores parâmetros MLP:", grid_mlp.best_params_)
 print("Melhor acurácia média MLP:", grid_mlp.best_score_)
 
 # ===============================================================
-# PARTE B – Treino com parâmetros originais (mantém os resultados do artigo)
+# PARTE B – Treino com parâmetros originais
 # ===============================================================
 
-# 4. Train models com parâmetros fixos (iguais ao artigo)
+# 4. Train models com parâmetros fixos 
 rf = RandomForestClassifier(random_state=42)
 svm = SVC(kernel='rbf', probability=True, random_state=42)
 mlp = MLPClassifier(hidden_layer_sizes=(100,), max_iter=500, random_state=42)
