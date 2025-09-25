@@ -82,4 +82,3 @@ Carpenter et al., 2016. Base de dados disponível em Harvard Dataverse: [https:/
 [renata.rocha@discente.ufma.br](mailto:renata.rocha@discente.ufma.br)
 
 ```
-
